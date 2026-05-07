@@ -3,11 +3,10 @@ import initHero from "./../components/initHero.js";
 import initBrands from "./../components/initBrands.js";
 import initWhatIsGpt from "./../components/initWhatIsGpt.js";
 import initFutureHere from "./../components/initFutureHere.js";
-import initExpectations from "./../components/initExpectations.js";
+import initExpectations from "../components/initExpectations.js";
 import initEarlyAccess from "./../components/initEarlyAccess.js";
-import initBlog from "./../components/initBlog.js";
 import initFooter from "./../components/initFooter.js";
-import initBurger from "./../components/initBurger.js";
+import initBlog from "./../components/initBlog.js";
 
 const createHomePageTemplate = (rootNode) => {
   // формируем шаблон базовых секций для дальнейшего монтирования в них
@@ -64,7 +63,7 @@ const homePage = () => {
   const blogNode = rootNode.querySelector(".blog");
   initBlog(blogNode);
 
-  // инициализация футера
+  // инициализация footer
   const footerNode = rootNode.querySelector(".footer");
   initFooter(footerNode);
 
