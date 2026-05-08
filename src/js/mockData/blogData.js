@@ -1,5 +1,3 @@
-import { expr } from "jquery";
-
 export const BlogCardLarge = {
   image: {
     src: "./assets/img/blog1.png",
