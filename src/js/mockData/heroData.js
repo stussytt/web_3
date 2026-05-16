@@ -14,12 +14,6 @@ export const illustration = {
   alt: "gpt3",
 };
 
-export const socialApprove = {
-  src: "./assets/img/Group 81.svg",
-  alt: "Пользователи",
-  text: "1600+ человек запросили доступ за последние 24 часа",
-};
-
 export const header =
   "Построим Что&#8209;нибудь Невероятное с GPT&#8209;4 OpenAI";
 
@@ -31,5 +25,4 @@ export const heroData = {
   description,
   heroCtaButtons,
   illustration,
-  socialApprove,
 };
